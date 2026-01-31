@@ -71,6 +71,7 @@ h2 {
 /* PROJETS */
 .projects-container {
   display: flex;
+  flex-direction: column;
   gap: 20px;
   overflow-x: auto;
 }
@@ -80,6 +81,10 @@ h2 {
   background: #D4C2A1;
   padding: 20px;
   border-radius: 15px;
+  img{
+    width: 100vh;
+    height: 200px;
+  }
 }
 
 /* CONTACT */
