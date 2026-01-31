@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #FBF0E9;
+  color: #805050;
+}
+
+/* NAVBAR */
+nav {
+  background: #AD9C92;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #805050;
+}
+
+/* SECTIONS */
+section {
+  padding: 90px 10%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* QUI SUIS-JE */
+.about-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-container img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+/* COMPÉTENCES */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #D4C2A1;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #CE8F8A;
+  transform: scale(1.05);
+}
+
+/* PROJETS */
+.projects-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.project-card {
+  min-width: 250px;
+  background: #D4C2A1;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* CONTACT */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  background: #805050;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #CE8F8A;
+}
+
+/* FOOTER */
+footer {
+  background: #AD9C92;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* BOUTON RETOUR EN HAUT */
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  background: #805050;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+  opacity: 0.6;          /* discret */
+  transition: opacity 0.3s, transform 0.3s;
+  text-align: center;
+  line-height: 35px;     /* centrer la flèche */
+}
+
+#topBtn:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+
