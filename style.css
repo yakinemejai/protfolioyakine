@@ -79,14 +79,15 @@ h2 {
 .project-card {
   min-width: 250px;
   background: #D4C2A1;
-  padding: 20px;
+  padding: 35px;
+  gap: 20px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   img{
-    width: 100vh;
-    height: 200px;
+    width: 110vh;
+    height: 230px;
   }
 }
 
@@ -151,8 +152,28 @@ footer a {
   opacity: 1;
   transform: translateY(-2px);
 }
+
+/* nav */
+
 nav{
     position: fixed;
 }
+
+
+/* enlever le bleu du lien  */
+
+a {
+  color: inherit;        /* prend la couleur du texte */
+
+}
+
+a:visited {
+  color: inherit;        /* enlève le violet après clic */
+}
+
+a:active {
+  color: inherit;        /* enlève le bleu au clic */
+}
+
 
 
