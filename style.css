@@ -142,10 +142,10 @@ footer a {
   font-size: 16px;
   cursor: pointer;
   display: none;
-  opacity: 0.6;          /* discret */
+  opacity: 0.6;      
   transition: opacity 0.3s, transform 0.3s;
   text-align: center;
-  line-height: 35px;     /* centrer la flèche */
+  line-height: 35px;  
 }
 
 #topBtn:hover {
