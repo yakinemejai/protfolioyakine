@@ -85,6 +85,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px;
   img{
     width: 110vh;
     height: 230px;
@@ -174,6 +175,5 @@ a:visited {
 a:active {
   color: inherit;        /* enlève le bleu au clic */
 }
-
 
 
